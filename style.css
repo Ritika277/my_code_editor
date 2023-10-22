@@ -1,0 +1,63 @@
+/* BEM methodology */
+
+.code-editor {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .code-editor__textarea {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #333;
+    border-radius: 2px;
+    font-family: monospace;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .code-editor__buttons {
+    display: flex;
+    justify-content:flex-end;
+    
+  }
+  
+  .code-editor__button {
+    
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+    
+  }
+  
+  .code-editor__button:hover {
+    background-color: #878383;
+  }
+  
+  .code-editor__button.active {
+    background-color: #007bff;
+    color: #ababff;
+  }
+  
+  /* Indentation */
+  
+  .code-editor__textarea {
+    text-indent: 20px;
+  }
+  
+  .code-editor__textarea::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .code-editor__textarea::-webkit-scrollbar-thumb {
+    background-color: aqua;
+    border-radius: 5px;
+  }
+  div{
+    background-color: #333;
+  }
